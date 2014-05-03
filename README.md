@@ -14,4 +14,4 @@ The `pull-stream` module provides a functional approach to working with streams.
 
 While you can use a `pipe` function as per traditional streams when working with pull streams, I would recommend using in the following way:
 
-<<< examples/source-and-sink.js
+<<(examples/source-and-sink.js)
