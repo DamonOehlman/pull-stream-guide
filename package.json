@@ -1,0 +1,32 @@
+{
+  "name": "pull-stream-guide",
+  "version": "0.0.0",
+  "description": "A guide to working with the pull-stream module",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gendocs README.md > tmp.md && blockdown < tmp.md > index.html && rm tmp.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/pull-stream-guide.git"
+  },
+  "keywords": [
+    "pull-stream",
+    "guide"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/pull-stream-guide/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/pull-stream-guide",
+  "devDependencies": {
+    "pull-stream": "^2",
+    "injectcode": "~0.2",
+    "blockdown": "~0.4"
+  }
+}
